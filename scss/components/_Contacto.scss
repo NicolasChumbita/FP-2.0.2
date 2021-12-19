@@ -1,0 +1,92 @@
+.active4 {
+    border-bottom: 3px solid black;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding: 1rem;
+    background-color: $negroclaro;
+    
+    
+}
+
+.form-conten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    padding: 3rem;
+    background-color: $azulclaro;
+    -webkit-box-shadow: 0px 0px 133px -1px rgba(0,85,255,1);
+    -moz-box-shadow: 0px 0px 133px -1px rgba(0,85,255,1);
+    box-shadow: 0px 0px 133px -1px rgba(0,85,255,1);
+
+}
+
+
+.form-conten h4{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: $blanco;
+    font-family: $fuentetitulos;
+}
+
+.form-control{
+    width: 100%;
+    background-color: $grisazulado;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid $negroclaro;
+    font-family: $fuenteprincipal;
+    font-size: 1.2rem;
+}
+
+.parrafo-form{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: $blanco;
+    font-family: $fuenteprincipal;
+}
+
+.footer-container1{
+    background-color: $negroclaro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+
+#lista5{
+    font-size: 1rem;
+    color: $blanco;
+    font-family: $fuenteprincipal;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    color: $blancomasoscuro;
+    font-size: 2rem;
+    font-family: $fuentetitulos;
+}
+
+@media (min-width: 280px) and (max-width: 600px ) {
+    .footer-container1{
+        flex-direction: column;}
+}
+
+@media (min-width:280px ) and (max-width:350px ) {
+    .footer-container1{
+        iframe{
+            width: 200px;
+        }
+    }
+    .form-conten{
+        width: 200px;
+
+    }
+}
